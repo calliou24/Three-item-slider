@@ -1,0 +1,75 @@
+
+
+@font-face {
+  font-family: 'Sparta light';
+  src: url(./assets/fonts/Spartan-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Sparta Med';
+  src: url(./assets/fonts/Spartan-Medium.ttf);
+}
+
+
+@font-face {
+  font-family: 'Sparta Bold';
+  src: url(./assets/fonts/Spartan-SemiBold.ttf);
+  
+}
+
+@font-face {
+  font-family: 'Sparta Bolder';
+  src: url(./assets/fonts/Spartan-Bold.ttf);
+  
+}
+
+@font-face {
+  font-family: 'Sparta Extra';
+  src: url(./assets/fonts/Spartan-ExtraBold.ttf);
+}
+
+* {
+  user-select:none;
+  font-family: 'Sparta Med';
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 12px;
+  overflow-x: hidden;
+}
+
+
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #0004;
+  border-radius: 30px;
+}
+
+
+.bodyLocked{ 
+  overflow: hidden;
+  height:100vh;
+}
+
+
+:root {
+  --dark-gray:hsl(0, 0%, 63%);
+  --black:hsl(0, 0%, 0%);
+  --white:hsl(0, 0%, 100%);
+  --very-dark-gray:hsl(0, 0%, 27%);
+
+}
+
+.App { 
+  min-height: 100vh;
+  min-width: 100vw;
+  position: relative;
+}
